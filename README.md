@@ -3,12 +3,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Table of Contents
 
 - [Folder Structure](#folder-structure)
+- [Preview](#Preview)
+- [Functionalities](#Functionalities)
+  - [Infinite Scroll](#Infinite-Scroll)
+  - [Change breed by pressing button](#Change-breed-by-pressing-button)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
-- [Installing a Dependency](#installing-a-dependency)
 
 
 ## Folder Structure
@@ -31,18 +31,28 @@ my-app/
     package.json
 ```
 
-For the project to build, **these files must exist with exact filenames**:
-
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
 
-You can delete or rename the other files.
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
-You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
 
-Only files inside `public` can be used from `public/index.html`.<br>
-Read instructions below for using assets from JavaScript and HTML.
+## Preview
+
+![Preview1](https://github.com/WenXinDong2018/images1/blob/master/Screenshot%202019-10-17%20at%2017.18.56.png)
+
+
+## Functionalities
+
+### Infinite-Scroll 
+
+![Preview2](https://github.com/WenXinDong2018/images1/blob/master/Screenshot%202019-10-17%20at%2019.27.47.png)
+
+Infinite scroll contains no duplicate images. Extra images are only loadable when breed is undefined
+
+### Change-breed-by-pressing-button
+
+![Preview3](https://github.com/WenXinDong2018/images1/blob/master/Screenshot%202019-10-17%20at%2019.25.45.png)
+
 
 ## Available Scripts
 
@@ -52,32 +62,3 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](#deployment) for more information.
-
-
-## Installing a Dependency
-
-The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
-
-```
-npm install --save <library-name>
-```
-
-
