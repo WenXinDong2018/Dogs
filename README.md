@@ -7,6 +7,7 @@
   - [Change breed by pressing button](#Change-breed-by-pressing-button)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
+- [SandBox](#SandBox)
 
 
 ## Folder Structure
