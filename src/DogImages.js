@@ -77,7 +77,7 @@ export default class DogImages extends Component {
         hasMore={true}
       >
         {this.state.dataSource.map(item => (
-          <img alt="breed" class="image" src={item} />
+          <img alt="breed" class="image" src={item} key = {item}/>
         ))}
       </InfiniteScroll>
     );
