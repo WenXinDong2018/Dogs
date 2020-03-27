@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class BreedButton extends Component {
   constructor(props) {
     super(props);
-    this.state = {
+    this.state =  {
       highlighed: this.props.highlighed
     };
   }
